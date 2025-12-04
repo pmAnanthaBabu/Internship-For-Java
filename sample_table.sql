@@ -1,6 +1,6 @@
 CREATE TABLE sample_table (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    userId BIGINT NOT NULL INDEX,
+    userId BIGINT NOT NULL PRIMARY KEY,
     username VARCHAR(255) NOT NULL UNIQUE,
     gender CHAR NOT NULL,
     description TEXT NOT NULL,
